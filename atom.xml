@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://huqingjia.com</id>
+    <title>写给自己的博客</title>
+    <updated>2021-06-11T01:25:25.987Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://huqingjia.com"/>
+    <link rel="self" href="https://huqingjia.com/atom.xml"/>
+    <subtitle>在路上，从未停下...</subtitle>
+    <logo>https://huqingjia.com/images/avatar.png</logo>
+    <icon>https://huqingjia.com/favicon.ico</icon>
+    <rights>All rights reserved 2021, 写给自己的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[动效日常练习]]></title>
+        <id>https://huqingjia.com/post/dong-xiao-ri-chang-lian-xi/</id>
+        <link href="https://huqingjia.com/post/dong-xiao-ri-chang-lian-xi/">
+        </link>
+        <updated>2021-06-11T01:15:10.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://huqingjia.com/post-images/1623374312644.gif" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://huqingjia.com/post-images/1623374317957.gif" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://huqingjia.com/post-images/1623374322491.gif" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://huqingjia.com/post-images/1623374326854.gif" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天天向上组合]]></title>
+        <id>https://huqingjia.com/post/tian-tian-xiang-shang-zu-he/</id>
+        <link href="https://huqingjia.com/post/tian-tian-xiang-shang-zu-he/">
+        </link>
+        <updated>2021-03-18T13:36:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>天天向上组合定位为对孩子教育成长经费的管理，包括但不限于各类红包，奖励等。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>天天向上组合定位为对孩子教育成长经费的管理，包括但不限于各类红包，奖励等。</p>
+<!-- more -->
+<h2 id="组合说明">组合说明</h2>
+<ol>
+<li>组合为配置型组合，在孩子收到各类红包奖励之后就投入该账户，淡化择时。</li>
+<li>精选4只主动权益类股票型基金、1只偏债混合型基金（归为债基）和一只二级债基，组合长期以股债6/4比例配置，除非出现较为明显的极端行情，否则不做大比例的调整。</li>
+<li>每半年检查一下组合配置比例，当股债阀值大于5%再平衡。</li>
+</ol>
+<h2 id="精选基金">精选基金</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th>基金代码</th>
+<th>基金名称</th>
+<th>目标配置比例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>009076</td>
+<td>工银圆兴混合</td>
+<td>15%</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>163415</td>
+<td>兴全商业模式优选混合</td>
+<td>15%</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>519736</td>
+<td>交银新成长混合</td>
+<td>15%</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>002593</td>
+<td>富国美丽中国混合A</td>
+<td>15%</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>003030</td>
+<td>安信新目标混合A</td>
+<td>20%</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td>002738</td>
+<td>泓德裕康债券A</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[稳稳幸福组合]]></title>
+        <id>https://huqingjia.com/post/wen-wen-xing-fu-zu-he/</id>
+        <link href="https://huqingjia.com/post/wen-wen-xing-fu-zu-he/">
+        </link>
+        <updated>2021-03-10T14:20:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>稳健基金组合，目标年化收益率不小于 7%，最大回撤控制在 5% 以内。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>稳健基金组合，目标年化收益率不小于 7%，最大回撤控制在 5% 以内。</p>
+<!-- more -->
+<h2 id="策略">策略</h2>
+<p>参考《兴全低波动小确幸》的组合思路，用权益主动基金和纯债以 85/15 的配置比例来构建组合，然后每年一次再平衡。</p>
+<h2 id="精选基金">精选基金</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th>基金代码</th>
+<th>基金名称</th>
+<th>目标配置比例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>163415</td>
+<td>兴全商业模式优选混合</td>
+<td>5%</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>002593</td>
+<td>富国美丽中国混合A</td>
+<td>5%</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>519736</td>
+<td>交银新成长混合</td>
+<td>5%</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>008383</td>
+<td>招商安心收益债券A</td>
+<td>30%</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>004127</td>
+<td>鹏华丰康债券</td>
+<td>30%</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td>007915</td>
+<td>财通资管鸿福短债A</td>
+<td>25%</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[年年有余组合]]></title>
+        <id>https://huqingjia.com/post/nian-nian-you-yu-zu-he/</id>
+        <link href="https://huqingjia.com/post/nian-nian-you-yu-zu-he/">
+        </link>
+        <updated>2021-03-10T14:05:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>指数基金组合，宽基为主行业主题为辅，多市场均衡配置，力争回撤控制在 20% 以内，长期跑赢中证800。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>指数基金组合，宽基为主行业主题为辅，多市场均衡配置，力争回撤控制在 20% 以内，长期跑赢中证800。</p>
+<!-- more --> 
+<h2 id="策略及品种选择">策略及品种选择</h2>
+<p>组合选取沪深宽基指数，行业、主题、策略指数以及港股和美股主流指数（括号内为指数最大占比），组建以中证800为基准的稳健指数基金组合：</p>
+<ol>
+<li>宽基指数：沪深300/国证A50（30%）、中证500/中证500质量（25%）、创业板（15%）</li>
+<li>行业基金：消费（15%）、医药（15%）、中概互联（15%）</li>
+<li>策略指数：中证红利（20%）</li>
+<li>海外新兴：恒生指数（15%）</li>
+<li>海外成熟：纳斯达克100（15%）</li>
+<li>债券/偏债混合基：二级债基/偏债混合基（80%）</li>
+</ol>
+<h2 id="精选基金">精选基金</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th>基金代码</th>
+<th>基金名称</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>110003</td>
+<td>易方达上证50指数A</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>010953</td>
+<td>天弘国证A50指数A</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>000006</td>
+<td>西部利得量化成长混合A</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>007593</td>
+<td>鹏扬中证500质量成长指数A</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>001879</td>
+<td>长城创业板指数增强A</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td>090010</td>
+<td>大成中证红利指数</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td>501302</td>
+<td>南方恒指ETF联接A</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td>501302</td>
+<td>华安纳斯达克100指数</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td>006002</td>
+<td>工银医药健康股票A</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td>000083</td>
+<td>汇添富消费行业混合A</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td>006327</td>
+<td>易方达中证海外联接人民币A</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td>000171</td>
+<td>易方达裕丰回报债券</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td>519770</td>
+<td>交银优择回报灵活配置混合A</td>
+</tr>
+</tbody>
+</table>
+<h2 id="买入规则">买入规则</h2>
+<ul>
+<li>每月发工资当天定投（遇节假日则顺延）。</li>
+<li>每月根据中证800估值得分百分位确定买入比例。</li>
+<li>得分百分位小于 20，月定投改为周定投。</li>
+</ul>
+<h4 id="通过估值得分百分位判断整体市场温度">通过估值得分百分位判断整体市场温度</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th>得分百分位区间</th>
+<th>买入比例</th>
+<th>股债配置比例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>0 - 15</td>
+<td>200%</td>
+<td>全部买入指数基金</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>15 - 25</td>
+<td>100%</td>
+<td>全部买入指数基金</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>25 - 50</td>
+<td>100%</td>
+<td>股债80/20比例买入</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>50 - 70</td>
+<td>80%</td>
+<td>股债50/50比例买入</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>70 - 85</td>
+<td>50%</td>
+<td>股债20/80比例买入</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td>85 - 100</td>
+<td>0%</td>
+<td>停止组合买入</td>
+</tr>
+</tbody>
+</table>
+<h3 id="估值">估值</h3>
+<p><a href="https://www.kdocs.cn/p/117243171593">中证800估值得分</a><br>
+估值的大方向上参考 E 大的发车，如果发车品种在我的自选中，结合仓位判断是否买入。其他估值数据参考且慢、蛋卷、天天基金和有知有行估值表。</p>
+<h2 id="卖出规则">卖出规则</h2>
+<h4 id="和e大所买品种一致">和E大所买品种一致</h4>
+<ul>
+<li>以 E 大卖出信号为基准，盯梢卖出。</li>
+</ul>
+<h4 id="和e大所买品种不一致">和E大所买品种不一致</h4>
+<ul>
+<li>当某指数（基金）上涨 40% 卖出持有份额的 1/5。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://huqingjia.com/post/about/</id>
+        <link href="https://huqingjia.com/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>嗨 ~ 我是胡青家，来自南京的 UI 设计师。专注于用户体验和交互设计。🤝</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>嗨 ~ 我是胡青家，来自南京的 UI 设计师。专注于用户体验和交互设计。🤝</p>
+<!-- more -->
+<p>15 年初从机电自学转行 UI 以来，已在设计这行耕耘 6 年多，多年的工作实践让我从一个入行的菜鸟到现在能独立负责整个产品的 UI 设计工作，感谢自己辛勤付出和过往公司给予的支持。</p>
+<p>目前主要负责政府医疗相关的 B 端产品设计，政府产品的设计不同于 C 端产品，可以近距离感受用户，B 端产品解决的是政府企业的具体问题，以可以完整的实现目标功能为核心，往往要牺牲用户体验去适应功能，而不会为了体验去删改功能，这就导致 B 端设计上更讲究交互上的清晰明确，视觉上也更为简洁、克制和干练。通过这么多项目的实践，目前对 B 端设计已经较为熟悉，能一次次为政府企业解决具体问题感到高兴。</p>
+<p>从业这些年让我感受最深到一点是我们的世界瞬息万变，设计带给我的不仅仅是一份工作，更多的是通过这份工作去不断的学习，提高自己的知识和认知水平。</p>
+]]></content>
+    </entry>
+</feed>

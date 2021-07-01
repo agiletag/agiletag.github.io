@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huqingjia.com</id>
     <title>写给自己的博客</title>
-    <updated>2021-06-11T08:34:57.523Z</updated>
+    <updated>2021-07-01T05:38:30.692Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huqingjia.com"/>
     <link rel="self" href="https://huqingjia.com/atom.xml"/>
@@ -21,6 +21,7 @@
 <figure data-type="image" tabindex="3"><img src="https://huqingjia.com/post-images/1623374322491.gif" alt="" loading="lazy"></figure>
 <figure data-type="image" tabindex="4"><img src="https://huqingjia.com/post-images/1623374326854.gif" alt="" loading="lazy"></figure>
 <figure data-type="image" tabindex="5"><img src="https://huqingjia.com/post-images/1623399703840.gif" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://huqingjia.com/post-images/1624256225819.gif" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
@@ -306,7 +307,7 @@
 </tbody>
 </table>
 <h3 id="估值">估值</h3>
-<p><a href="https://www.kdocs.cn/p/117243171593">中证800估值得分</a><br>
+<p><a href="https://shimo.im/sheets/a6VDhAEnilsfkNSk/2P2zy">中证800估值得分</a><br>
 估值的大方向上参考 E 大的发车，如果发车品种在我的自选中，结合仓位判断是否买入。其他估值数据参考且慢、蛋卷、天天基金和有知有行估值表。</p>
 <h2 id="卖出规则">卖出规则</h2>
 <h4 id="和e大所买品种一致">和E大所买品种一致</h4>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huqingjia.com</id>
     <title>写给自己的博客</title>
-    <updated>2021-07-01T08:13:59.145Z</updated>
+    <updated>2021-07-06T01:17:11.759Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huqingjia.com"/>
     <link rel="self" href="https://huqingjia.com/atom.xml"/>
@@ -47,6 +47,7 @@
 <th style="text-align:center">序号</th>
 <th>基金代码</th>
 <th>基金名称</th>
+<th>基金经理</th>
 <th>目标配置比例</th>
 </tr>
 </thead>
@@ -55,36 +56,42 @@
 <td style="text-align:center">1</td>
 <td>009076</td>
 <td>工银圆兴混合</td>
+<td>袁芳</td>
 <td>15%</td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
 <td>163415</td>
 <td>兴全商业模式优选混合</td>
+<td>乔迁</td>
 <td>15%</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
 <td>519736</td>
 <td>交银新成长混合</td>
+<td>王崇</td>
 <td>15%</td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
 <td>002593</td>
 <td>富国美丽中国混合A</td>
+<td>张啸伟</td>
 <td>15%</td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
 <td>003030</td>
 <td>安信新目标混合A</td>
+<td>聂世林/潘巍</td>
 <td>20%</td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
 <td>002738</td>
 <td>泓德裕康债券A</td>
+<td>毛静平</td>
 <td>20%</td>
 </tr>
 </tbody>
@@ -110,6 +117,7 @@
 <th style="text-align:center">序号</th>
 <th>基金代码</th>
 <th>基金名称</th>
+<th>基金经理</th>
 <th>目标配置比例</th>
 </tr>
 </thead>
@@ -118,36 +126,42 @@
 <td style="text-align:center">1</td>
 <td>163415</td>
 <td>兴全商业模式优选混合</td>
+<td>乔迁</td>
 <td>5%</td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
 <td>002593</td>
 <td>富国美丽中国混合A</td>
+<td>张啸伟</td>
 <td>5%</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
 <td>519736</td>
 <td>交银新成长混合</td>
+<td>王崇</td>
 <td>5%</td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
 <td>008383</td>
 <td>招商安心收益债券A</td>
+<td>马龙</td>
 <td>30%</td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
 <td>004127</td>
 <td>鹏华丰康债券</td>
+<td>王千石</td>
 <td>30%</td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
 <td>007915</td>
 <td>财通资管鸿福短债A</td>
+<td>李杰/邹舟</td>
 <td>25%</td>
 </tr>
 </tbody>
@@ -181,6 +195,7 @@
 <th style="text-align:center">序号</th>
 <th>基金代码</th>
 <th>基金名称</th>
+<th>基金经理</th>
 </tr>
 </thead>
 <tbody>
@@ -188,66 +203,79 @@
 <td style="text-align:center">1</td>
 <td>110003</td>
 <td>易方达上证50指数A</td>
+<td>张胜记</td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
 <td>010953</td>
 <td>天弘国证A50指数A</td>
+<td>-</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
 <td>000006</td>
 <td>西部利得量化成长混合A</td>
+<td>盛丰衍</td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
 <td>007593</td>
 <td>鹏扬中证500质量成长指数A</td>
+<td>-</td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
 <td>001879</td>
 <td>长城创业板指数增强A</td>
+<td>雷俊/王卫林</td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
 <td>090010</td>
 <td>大成中证红利指数</td>
+<td>-</td>
 </tr>
 <tr>
 <td style="text-align:center">7</td>
 <td>501302</td>
 <td>南方恒指ETF联接A</td>
+<td>-</td>
 </tr>
 <tr>
 <td style="text-align:center">8</td>
 <td>501302</td>
 <td>华安纳斯达克100指数</td>
+<td>-</td>
 </tr>
 <tr>
 <td style="text-align:center">9</td>
 <td>006002</td>
 <td>工银医药健康股票A</td>
+<td>谭冬寒</td>
 </tr>
 <tr>
 <td style="text-align:center">10</td>
-<td>000083</td>
-<td>汇添富消费行业混合A</td>
+<td>006408</td>
+<td>汇添富消费升级混合</td>
+<td>胡昕炜</td>
 </tr>
 <tr>
 <td style="text-align:center">11</td>
 <td>006327</td>
 <td>易方达中证海外联接人民币A</td>
+<td>-</td>
 </tr>
 <tr>
 <td style="text-align:center">12</td>
 <td>000171</td>
 <td>易方达裕丰回报债券</td>
+<td>张清华/张雅君</td>
 </tr>
 <tr>
 <td style="text-align:center">13</td>
 <td>519770</td>
 <td>交银优择回报灵活配置混合A</td>
+<td>王艺伟</td>
 </tr>
 </tbody>
 </table>

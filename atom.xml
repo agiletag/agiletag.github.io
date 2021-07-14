@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huqingjia.com</id>
     <title>写给自己的博客</title>
-    <updated>2021-07-13T05:42:50.456Z</updated>
+    <updated>2021-07-14T01:44:16.895Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huqingjia.com"/>
     <link rel="self" href="https://huqingjia.com/atom.xml"/>
@@ -127,21 +127,21 @@
 <td>163415</td>
 <td>兴全商业模式优选混合</td>
 <td>乔迁</td>
-<td>5%</td>
+<td>4%</td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
 <td>002593</td>
 <td>富国美丽中国混合A</td>
 <td>张啸伟</td>
-<td>5%</td>
+<td>4%</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
 <td>519736</td>
 <td>交银新成长混合</td>
 <td>王崇</td>
-<td>5%</td>
+<td>4%</td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
@@ -159,13 +159,19 @@
 </tr>
 <tr>
 <td style="text-align:center">6</td>
-<td>007915</td>
-<td>财通资管鸿福短债A</td>
-<td>李杰/邹舟</td>
-<td>25%</td>
+<td>000931</td>
+<td>国寿安保尊益信用纯债债券</td>
+<td>陶尹斌/丁宇佳</td>
+<td>28%</td>
 </tr>
 </tbody>
 </table>
+<h2 id="更新日志">更新日志</h2>
+<h4 id="2021-7-12">2021-7-12</h4>
+<ul>
+<li>组合定位为中期策略，所以将组合的短债换成长债，长债部分和主动权益部分都均衡配置。</li>
+<li>财通资管鸿福短债A(007915) -- 国寿安保尊益信用纯债债券(000931)</li>
+</ul>
 ]]></content>
     </entry>
     <entry>
@@ -201,9 +207,9 @@
 <tbody>
 <tr>
 <td style="text-align:center">1</td>
-<td>110003</td>
-<td>易方达上证50指数A</td>
-<td>张胜记</td>
+<td>002340</td>
+<td>富国价值优势混合</td>
+<td>孙彬</td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
@@ -345,6 +351,15 @@
 <h4 id="和e大所买品种不一致">和E大所买品种不一致</h4>
 <ul>
 <li>当某指数（基金）上涨 40% 卖出持有份额的 1/5。</li>
+</ul>
+<h2 id="更新日志">更新日志</h2>
+<h4 id="20210712">2021.07.12</h4>
+<p>观察了小半年的时间，决定用沪深300增强替换掉易方达上证50增强A，主要有以下几点原因：</p>
+<ul>
+<li>E 大的 6 大指数中也将上证50替换成沪深300了；</li>
+<li>沈潜的小鳄鱼组合中也将易方达上证50替换掉了；</li>
+<li>易方达上证50持仓集中度比较高，高集中度波动一般都比较大，这不是我喜欢的类型，我个人还是喜欢均衡持仓的基金；</li>
+<li>发现了更好的沪深300增强基金——富国价值优势混合【<a href="https://xueqiu.com/7245734636/187672104">有了他，沪深300量化增强暂时不用看了</a>】，虽然是一只混合型基金，但基金经理的策略还是做一只主动增强的沪深300基金，近年走势比较好，风险就是基金经理资力尚浅，过往的好业绩可能有运气成份，先做小仓位配置。这样组合的宽基就以一只增强混合+一只纯指数构成，这样的配置自我感觉舒服</li>
 </ul>
 ]]></content>
     </entry>

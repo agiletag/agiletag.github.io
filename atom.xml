@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://huqingjia.com</id>
+    <title>写给自己的博客</title>
+    <updated>2022-06-30T01:14:20.699Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://huqingjia.com"/>
+    <link rel="self" href="https://huqingjia.com/atom.xml"/>
+    <subtitle>在路上，从未停下...</subtitle>
+    <logo>https://huqingjia.com/images/avatar.png</logo>
+    <icon>https://huqingjia.com/favicon.ico</icon>
+    <rights>All rights reserved 2022, 写给自己的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[毛玻璃效果画法]]></title>
+        <id>https://huqingjia.com/post/mao-bo-li-xiao-guo-hua-fa/</id>
+        <link href="https://huqingjia.com/post/mao-bo-li-xiao-guo-hua-fa/">
+        </link>
+        <updated>2021-10-08T08:24:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>前些年苹果家发布 iOS 7 毛玻璃效果火了一阵，之后好像并没什么热度，这两年各家玩起特殊材质，毛玻璃又回来了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>前些年苹果家发布 iOS 7 毛玻璃效果火了一阵，之后好像并没什么热度，这两年各家玩起特殊材质，毛玻璃又回来了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[动效日常练习]]></title>
+        <id>https://huqingjia.com/post/dong-xiao-ri-chang-lian-xi/</id>
+        <link href="https://huqingjia.com/post/dong-xiao-ri-chang-lian-xi/">
+        </link>
+        <updated>2021-06-11T01:15:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[幸福家园 - 物业管理系统]]></title>
+        <id>https://huqingjia.com/post/xing-fu-jia-yuan-wu-ye-guan-li-xi-tong/</id>
+        <link href="https://huqingjia.com/post/xing-fu-jia-yuan-wu-ye-guan-li-xi-tong/">
+        </link>
+        <updated>2020-06-18T06:15:36.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于我]]></title>
+        <id>https://huqingjia.com/post/about/</id>
+        <link href="https://huqingjia.com/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>嗨 ~ 我叫胡青家，来自南京的 UI 设计师。专注于用户体验和交互设计。🤝</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>嗨 ~ 我叫胡青家，来自南京的 UI 设计师。专注于用户体验和交互设计。🤝</p>
+]]></content>
+    </entry>
+</feed>

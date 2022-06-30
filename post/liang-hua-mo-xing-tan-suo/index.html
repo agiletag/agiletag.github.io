@@ -1,0 +1,167 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>量化模型初探索 | 写给自己的博客</title>
+
+<link rel="shortcut icon" href="https://huqingjia.com/favicon.ico?v=1656551154564">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://huqingjia.com/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E45M2YS263"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-E45M2YS263');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            写给自己的博客
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1656551154564" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    量化模型初探索
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-07-15 ·
+                    </time>
+                    
+                        <a href="https://huqingjia.com/tag/aTuG_VcMm/" class="post-tags">
+                            # 理财投资
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>今天花了一天的时间的来研究可转债的量化方式。</p>
+<p>一开始的时候我是根据集思录上@yyb凌波的双低策略，再结合@持有封基的量化因子，运用可转债价格、溢价率、剩余规模三个因子在双低策略的基础上给三个因子做权重，后来我发现这个好像不太合理，经典双低是转债价格+溢价率x100，这里其实没有考虑权重的问题，或是像封基老师说的那样几乎是等权重的，而我再加一个剩余规模因子，这三个因子的数量级都不相同，数量级大明显会占据更大的权重所以得出的结论肯定也是有误的，昨天下班之后开始想这个问题，如何让三个因子在一个纬度上去比较然后再分配权重，临睡前找到一些思路，数据统计里好像有这样的一些处理方式，什么标准化（归一化）等等，今早来到公司，没什么事我就开始用这个方法做对应的测算，这个标准化方式是通过数据中的最大值和最小值来计算，把一组数据都统一到 [0, 1] 之间，这样所有的因子就有共同的维度了，但弄了半天我发现还是有个问题，尤其像股票市值或是剩余规模这些因子，最大值和最小值差距过大，所以有相当一部分的数据都非常非常的小，而弹性这样的因子本身就是 [0,1] 之间的数，就会造成一定的数据失真，我是这样觉得的，不知道是不是这个道理。</p>
+<p>在我即将放弃的时候，想到了昨晚查资料时其中有提到通过数据的排名来统一纬度，排名的每个因子都是一样的，这样再分配权重似乎更加合理些，我又重新计算发现数据似乎更加合理不会出现价格很高或是溢价很高的转债集中出现在前面。</p>
+<p>还有对于权重的问题，之前的固有思维就是权重一定得加总为 1，所以开始分配的权重价格（0.3）溢价率（0.6）剩余规模（0.1），看这里就有问题，如果给溢价率 0.6 的权重，价格量级明显大于溢价率，为之我还是像双低那样乘以了 100，我也不知道为什么。然后又反复看了封基老师的文章 <a href="https://xueqiu.com/6146592061/187100387">可转债中抓妖记</a> 和微信公众号对应文章的留言，又查了一些资料才恍然大悟过来，权重不一定加总等于1、10、100%这样的整数，可以是任何数，主要看你如何分配不同的权重来达到最佳值，和加总之和没关系，我又重新改变了权重重新计算，这样一个模模糊糊的量化模型算是建立好了，其中还有许多量化知识需要补充。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">在路上，从未停下...</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://huqingjia.com/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

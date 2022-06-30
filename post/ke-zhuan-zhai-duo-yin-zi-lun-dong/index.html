@@ -1,0 +1,235 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>可转债多因子轮动 | 写给自己的博客</title>
+
+<link rel="shortcut icon" href="https://huqingjia.com/favicon.ico?v=1656551154564">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://huqingjia.com/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E45M2YS263"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-E45M2YS263');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            写给自己的博客
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1656551154564" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    可转债多因子轮动
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-07-12 ·
+                    </time>
+                    
+                        <a href="https://huqingjia.com/tag/aTuG_VcMm/" class="post-tags">
+                            # 理财投资
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>下有保底上不封顶，百花齐放的投资品种。</p>
+<!-- more -->
+<p>受持有封基老师的启发【<a href="https://xueqiu.com/6146592061/187100387">可转债中抓妖记</a>】、【<a href="https://xueqiu.com/6146592061/189977868">降准真的来了，但我还是抱着这两个品种</a>】，自己依葫芦画瓢也搞了个可转债多因子轮动策略，5 个因子分别为转债价格、转股溢价率、余额/股本、股票市值和弹性，对应权重为 15%、35%、10%、10%、-10%，各因子排序后加权得出综合得分，降序选取前 5 只进行配置，定期轮动。</p>
+<h2 id="轮动">轮动</h2>
+<ul>
+<li>成交额大于 500 亿每周三轮动，小于 500 亿四周一轮动，遇节假日顺延至下周。</li>
+<li>轮动时剔除价格大于 170 元的可转债然后排序选取前 5 只。</li>
+<li>轮动时提前了解一下要轮入的可转债转债情况，例如是否有重要利空新闻或是可能强赎公告等。</li>
+<li>数据来源宁稳网。</li>
+</ul>
+<h2 id="更新日志">更新日志</h2>
+<h4 id="20211125">2021.11.25</h4>
+<p>成交额大于 500 亿每周三轮动，小于 500 亿四周一轮动，遇节假日顺延至下周。</p>
+<h4 id="20211029">2021.10.29</h4>
+<p>统计了从 9 月 1 日到 10 月 29 日两个月时间跟踪的各个转债策略的收益情况，发现自己实盘是做的最差的，模拟盘规则还简单，我想是不是我把简单的事情搞复杂了，无形中增加了损耗。打算一切打回原型就按之前最简单的策略来指导操作，减少无用功还不用徒增焦虑。</p>
+<table>
+<thead>
+<tr>
+<th>账户</th>
+<th>8月31日累计收益率</th>
+<th>10月29日累计收益率</th>
+<th>涨幅</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>实盘账户 1（她）</td>
+<td>11.08%</td>
+<td>9.16%</td>
+<td>-1.92%</td>
+</tr>
+<tr>
+<td>实盘账户 2（我）</td>
+<td>7.79%</td>
+<td>0.74%</td>
+<td>-7.05%</td>
+</tr>
+<tr>
+<td>模拟盘账户 1（新10）</td>
+<td>21.43%</td>
+<td>21.72%</td>
+<td>0.29%</td>
+</tr>
+<tr>
+<td>模拟盘账户 2（老10）</td>
+<td>18.96%</td>
+<td>21.05%</td>
+<td>2.09%</td>
+</tr>
+<tr>
+<td>模拟盘账户 3（老5）</td>
+<td>23.42%</td>
+<td>28.13%</td>
+<td>4.71%</td>
+</tr>
+<tr>
+<td>持有封基</td>
+<td>25.81%</td>
+<td>25.03%</td>
+<td>-0.78%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="20211013">2021.10.13</h4>
+<p>轮动时选取两倍于目标持仓数量的可转债作为轮动区间（排出已发强赎公告和转债价格大于 170 元的可转债），跌出排名区间则轮出，否则不轮出。</p>
+<p>轮动买入筛选区间价格小于 130 元可转债，若没有则不买。</p>
+<h4 id="20211012">2021.10.12</h4>
+<p>考虑加入可转债成交额因子，成交额大于 500 亿 5 日一轮动，小于 500 亿 1 月一轮动。</p>
+<h4 id="2021927">2021.9.27</h4>
+<p>最近波动较大降低阀值，轮动买入时价格阀值小于 150 元，持仓价格高于 170 元轮动时买出。</p>
+<h4 id="20210915">2021.09.15</h4>
+<p>简单回测了一下从7月16日到9月13日周轮动效果明显好于月轮动，截止今天中午收盘前者收益为 28.15%，而后者收益只有 15.21%，相差很大。我想可能与最近可转债比较火热有一定的关系，热度上来了，数据更迭的更快，所以后面考虑周轮动策略，等温度降一降再放长轮动周期。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">在路上，从未停下...</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://huqingjia.com/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

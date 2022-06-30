@@ -1,0 +1,217 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>搬瓦工安装 Shadowsocks | 写给自己的博客</title>
+
+<link rel="shortcut icon" href="https://huqingjia.com/favicon.ico?v=1656551154564">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://huqingjia.com/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E45M2YS263"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-E45M2YS263');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            写给自己的博客
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://huqingjia.com/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1656551154564" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    搬瓦工安装 Shadowsocks
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-10-09 ·
+                    </time>
+                    
+                        <a href="https://huqingjia.com/tag/4rxa-7r2E/" class="post-tags">
+                            # 瞎折腾
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>继续捣腾我的搬瓦工，搞个科学上网太难了，外面的世界很精彩...</p>
+<!-- more -->
+<p>17年刚用搬瓦工的时候还有一件安装 Shadowsocks 的功能，几年下来搬瓦工不知怎么的把这个功能给隐藏取消了，几个月前 IP 被叉叉了，一时也没管它又来了疫情就搁在那也没用，最近又在这捣腾了，也不知为什么，可能因为疫情解封这 IP 也解封了，想着换个机房，重新做下系统，开始也没多想，就直接搬了机房重新做了系统，然后安装 Shadowsocks 遇到了麻烦，网上找了一圈也没找到个能用的，就在我快放弃的时候，发现了一篇不起眼的文章，死马当活马医吧不管那么多先按教程试试再说，咦一路下来居然还真能用，总算是庆幸，下面将这个过程按照自己思路捋一下，给以后留个参考。</p>
+<h2 id="ssh-登录远程主机链接-vps">SSH 登录远程主机（链接 VPS）</h2>
+<ol>
+<li>打开 mac 上的「终端」，进入终端页面。</li>
+<li>输入下面命令登录 VPS。</li>
+</ol>
+<pre><code>ssh root@xxx.xxx.xxx.xxx -p xxxx
+</code></pre>
+<ul>
+<li>xxx.xxx.xxx.xxx 是服务器 IP</li>
+<li>xxxx 是 ssh 端口号</li>
+</ul>
+<p>根据提示，输入「yes」后回车（好像首次登录才要输入「yes」）；接着提示输入密码，此时可以直接复制或手动输入密码（注意粘贴或输入密码都不会有显示），然后回车。一切顺利的话会返回 <code>[root@xxx ~]# </code>  （其中 xxx 和 IP 有关注意是这个形式就行）这样 VPS 就登录成功了。</p>
+<pre><code>Last login: Sat Oct  9 10:37:32 on ttys000
+xxxxxx@xxxxxxdeMacBook-Pro ~ % ssh root@144.xxx.xxx.xxx -p xxxxx
+root@144.xxx.xxx.xxx's password: 
+[root@144 ~]# 
+</code></pre>
+<p>中途出现好多次下面的错误提示，我也不知道咋搞，百度也出不来（后来发现百度就是个渣渣，我用 Bing 就能搜出来），无奈我只能又重新安装系统，这样好像可以，但后来好像又不行了，换个机房也不行，我也搞不清咋回事，毕竟也不懂这些命令、代码，只能复制粘贴，所幸在这篇教程中给力解答。</p>
+<pre><code>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+07:36:8e:d0:72:88:38:f7:21:10:c3:12:d6:35:ad:55.（这里每个人都不同）
+Please contact your system administrator.
+Add correct host key in /Users/Anan/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /Users/Anan/.ssh/known_hosts:1
+RSA host key for 这里是服务器的IP has changed and you have requested strict checking.
+Host key verification failed.
+</code></pre>
+<p>这里我后来找到三种方法：<br>
+1. 先执行 <code>rm -rf ~/.ssh/known_hosts</code>  然后链接 VPS。<br>
+2. 先执行 <code>ssh-keygen -f &quot;/home/choldrim/.ssh/known_hosts&quot; -R xxx.xxx.xxx.xxx（服务器 IP）</code>  然后链接 VPS。<br>
+3. 先执行 <code>ssh-keygen -R xxx.xxx.xxx.xxx（服务器 IP）</code>  然后链接 VPS。</p>
+<p>我自己之前用的是第一种方法，但看了一些贴子说这样是直接删除整个文件，好像不太好；又找到第二种方法只删除出现问题的那条【<a href="https://blog.csdn.net/watsy/article/details/12611919">Linux 远程连接 ssh 提示错误</a>】；然后第三条好像更简洁，也不太懂啥意思，照着做吧。【<a href="https://blog.csdn.net/lvhdbb/article/details/96894933">ssh登录远程主机报错</a>】</p>
+<h2 id="shadowsocks-一键安装">Shadowsocks 一键安装</h2>
+<p>登录成功后复制下面这行命令，拷贝至「终端」</p>
+<pre><code>bash &lt;(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/centos_install_ss.sh)
+</code></pre>
+<p>然后回车，屏幕出现「请设置 SS 密码」（不输入则随机生成）的提示，按照提示设置 SS 密码、设置 SS 端口（SS 端口（不能是 22 和 80））并选择加密方式（这里我选择的是 aes-256-gcm）。</p>
+<p>接下来屏幕上开始疯狂出现一堆我也看不懂的东西，耐心等待吧，期间网络断开（mac 表现为终端出现「closed by remote host」或「broken pipe」），重新连接后再次执行命令。脚本执行成功后会输出 SS 配置，记得保存一下。</p>
+<h2 id="ss-客户端下载和配置">SS 客户端下载和配置</h2>
+<p>先去 github 上下载相应的客户端 <a href="https://github.com/shadowsocks">Shadowsocks 客户端</a>，这里 mac 我选的是   <a href="https://github.com/shadowsocks/ShadowsocksX-NG">ShadowsocksX-NG</a> 。</p>
+<p>然后配置 SS，把刚才设置好的 SS 各参数相应的输入进去就搞定了。</p>
+<p>原帖地址：</p>
+<ul>
+<li><a href="https://vpsgongyi.com/p/2219/">Mac电脑连接Linux教程 - VPS攻略</a></li>
+<li><a href="https://vpsgongyi.com/p/2204/">Shadowsocks/SS一键脚本</a></li>
+</ul>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">在路上，从未停下...</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://huqingjia.com/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
